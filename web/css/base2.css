@@ -1,0 +1,72 @@
+#content{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#criteriaQueries{
+    height: 80px;
+    margin-top: 10px;
+    font-size: 12px;
+    background-color: aliceblue;
+    padding: 15px;
+    box-shadow:2px 2px 10px #909090;
+}
+#location{
+    height: 30px;
+    color: lightgray;
+    font-size: 14px;
+}
+#listAllMessage{
+    position: relative;
+    height: 400px;
+    padding: 15px;
+    box-shadow:2px 2px 10px #909090;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+}
+#addContent{
+    position: relative;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:2px 2px 10px #909090;
+}
+#iput{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px black;
+}
+#dataiput{
+    width: 200px;
+    height: 30px;
+    text-align: right;
+    border: solid 1px black;
+}
+#pageButton{
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+#addButton2{
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+}
+#submitButton{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+.queryinput{
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}

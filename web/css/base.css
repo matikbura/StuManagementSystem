@@ -1,0 +1,117 @@
+
+#contentleft{
+    width: 200px;
+    height: 600px;
+    background-color: darkslategray;
+    float: left;
+    border-radius: 8px;
+    border:#909090 1px solid;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+    color: white;
+}
+
+#contentright{
+    width: 780px;
+    height: 600px;
+    margin-left: 15px;
+    float: left;
+    box-shadow:2px 2px 10px #909090;
+    border-radius: 8px;
+}
+
+#content ul li{
+    text-align: center;
+    width: 140px;
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#content ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+#subfunction{
+    height: 200px;
+    margin-top: 170px;
+}
+#location{
+    font-size: 12px;
+    height: 30px;
+    margin: 10px 0 0px 20px;
+    color: lightgray;
+}
+#mainContent{
+    position: relative;
+    height: 550px;
+    font-size: 12px;
+}
+
+#techerquerymessage{
+    height: 150px;
+    background-color: white;
+}
+.techerquerymessageaa{
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#listAllMessage{
+    height: 380px;
+    margin-top: 10px;
+    background-color: white;
+}
+.iput{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px black;
+}
+.dataIput{
+    width: 600px;
+    border: solid 1px black;
+    text-align: left;
+}
+#addButton{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+#pageButton{
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+#pageButton a{
+    color: black;
+}
+#pageButton a:hover{
+    color: coral;
+}
+#content ul li a{transition: all .3s;}
+#content ul li a:hover{color: coral;}
+
+#addButton2{
+    position: absolute;
+    right: 10%;
+    bottom: 9%;
+}
+#listAllMessage a{
+    color: black;
+}
+#listAllMessage a:hover{
+    color: coral;
+}
+#addButton2:hover{
+    color: coral;
+}
+#content {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}

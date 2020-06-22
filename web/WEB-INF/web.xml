@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListAllTeacherServlet</servlet-name>
+        <servlet-class>servlet.teacher.ListAllTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAllTeacherServlet</servlet-name>
+        <url-pattern>/ListAllTeacherServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowTeacherServlet</servlet-name>
+        <servlet-class>servlet.teacher.ShowTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowTeacherServlet</servlet-name>
+        <url-pattern>/ShowTeacherServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UpdateTeacherServlet</servlet-name>
+        <servlet-class>servlet.teacher.UpdateTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateTeacherServlet</servlet-name>
+        <url-pattern>/UpdateTeacherServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddTeacherServlet</servlet-name>
+        <servlet-class>servlet.teacher.AddTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTeacherServlet</servlet-name>
+        <url-pattern>/AddTeacherServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckTeacherServlet</servlet-name>
+        <servlet-class>servlet.teacher.CheckTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckTeacherServlet</servlet-name>
+        <url-pattern>/CheckTeacherServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteTeacherServlet</servlet-name>
+        <servlet-class>servlet.teacher.DeleteTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTeacherServlet</servlet-name>
+        <url-pattern>/DeleteTeacherServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>ListAllAdminServlet</servlet-name>
+        <servlet-class>servlet.admin.ListAllAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAllAdminServlet</servlet-name>
+        <url-pattern>/ListAllAdminServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteAdminServlet</servlet-name>
+        <servlet-class>servlet.admin.DeleteAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteAdminServlet</servlet-name>
+        <url-pattern>/DeleteAdminServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAdminServlet</servlet-name>
+        <servlet-class>servlet.admin.AddAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAdminServlet</servlet-name>
+        <url-pattern>/AddAdminServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowAdminServlet</servlet-name>
+        <servlet-class>servlet.admin.ShowAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowAdminServlet</servlet-name>
+        <url-pattern>/ShowAdminServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckAdminServlet</servlet-name>
+        <servlet-class>servlet.admin.CheckAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckAdminServlet</servlet-name>
+        <url-pattern>/CheckAdminServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateAdminServle</servlet-name>
+        <servlet-class>servlet.admin.UpdateAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAdminServle</servlet-name>
+        <url-pattern>/UpdateAdminServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>ListAllStudentServlet</servlet-name>
+        <servlet-class>servlet.student.ListAllStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAllStudentServlet</servlet-name>
+        <url-pattern>/ListAllStudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteStudentServlet</servlet-name>
+        <servlet-class>servlet.student.DeleteStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteStudentServlet</servlet-name>
+        <url-pattern>/DeleteStudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <servlet-class>servlet.student.AddStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <url-pattern>/AddStudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ShowStudentServlet</servlet-name>
+        <servlet-class>servlet.student.ShowStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowStudentServlet</servlet-name>
+        <url-pattern>/ShowStudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CheckStudentServlet</servlet-name>
+        <servlet-class>servlet.student.CheckStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckStudentServlet</servlet-name>
+        <url-pattern>/CheckStudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdateStudentServle</servlet-name>
+        <servlet-class>servlet.student.UpdateStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStudentServle</servlet-name>
+        <url-pattern>/UpdateStudentServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>ListAllCourseServlet</servlet-name>
+        <servlet-class>servlet.course.ListAllCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAllCourseServlet</servlet-name>
+        <url-pattern>/ListAllCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCourseServlet</servlet-name>
+        <servlet-class>servlet.course.DeleteCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCourseServlet</servlet-name>
+        <url-pattern>/DeleteCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCourseServlet</servlet-name>
+        <servlet-class>servlet.course.AddCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCourseServlet</servlet-name>
+        <url-pattern>/AddCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowCourseServlet</servlet-name>
+        <servlet-class>servlet.course.ShowCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCourseServlet</servlet-name>
+        <url-pattern>/ShowCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckCourseServlet</servlet-name>
+        <servlet-class>servlet.course.CheckCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckCourseServlet</servlet-name>
+        <url-pattern>/CheckCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateCourseServle</servlet-name>
+        <servlet-class>servlet.course.UpdateCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCourseServle</servlet-name>
+        <url-pattern>/UpdateCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListAllClasstblServlet</servlet-name>
+        <servlet-class>servlet.classtbl.ListAllClasstblServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAllClasstblServlet</servlet-name>
+        <url-pattern>/ListAllClasstblServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteClasstblServlet</servlet-name>
+        <servlet-class>servlet.classtbl.DeleteClasstblServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteClasstblServlet</servlet-name>
+        <url-pattern>/DeleteClasstblServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddClasstblServlet</servlet-name>
+        <servlet-class>servlet.classtbl.AddClasstblServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddClasstblServlet</servlet-name>
+        <url-pattern>/AddClasstblServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowClasstblServlet</servlet-name>
+        <servlet-class>servlet.classtbl.ShowClasstblServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowClasstblServlet</servlet-name>
+        <url-pattern>/ShowClasstblServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckClasstblServlet</servlet-name>
+        <servlet-class>servlet.classtbl.CheckClasstblServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckClasstblServlet</servlet-name>
+        <url-pattern>/CheckClasstblServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateClasstblServle</servlet-name>
+        <servlet-class>servlet.classtbl.UpdateClasstblServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateClasstblServle</servlet-name>
+        <url-pattern>/UpdateClasstblServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+    <servlet>
+        <servlet-name>ListAllCourseArrangeServlet</servlet-name>
+        <servlet-class>servlet.courseArrange.ListAllCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAllCourseArrangeServlet</servlet-name>
+        <url-pattern>/ListAllCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteCourseArrangeServlet</servlet-name>
+        <servlet-class>servlet.courseArrange.DeleteCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCourseArrangeServlet</servlet-name>
+        <url-pattern>/DeleteCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddCourseArrangeServlet</servlet-name>
+        <servlet-class>servlet.courseArrange.AddCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCourseArrangeServlet</servlet-name>
+        <url-pattern>/AddCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PreAddCourseArrangeServlet</servlet-name>
+        <servlet-class>servlet.courseArrange.PreAddCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreAddCourseArrangeServlet</servlet-name>
+        <url-pattern>/PreAddCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ShowCourseArrangeServlet</servlet-name>
+        <servlet-class>servlet.courseArrange.ShowCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCourseArrangeServlet</servlet-name>
+        <url-pattern>/ShowCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CheckCourseArrangeServlet</servlet-name>
+        <servlet-class>servlet.courseArrange.CheckCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckCourseArrangeServlet</servlet-name>
+        <url-pattern>/CheckCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdateCourseArrangeServle</servlet-name>
+        <servlet-class>servlet.courseArrange.UpdateCourseArrangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCourseArrangeServle</servlet-name>
+        <url-pattern>/UpdateCourseArrangeServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+    <filter>
+        <filter-name>AdminServlet</filter-name>
+        <filter-class>filter.AdminFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AdminServlet</filter-name>
+        <servlet-name>ListAllAdminServlet</servlet-name>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CourseArrangeServlet</filter-name>
+        <filter-class>filter.TeacherFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CourseArrangeServlet</filter-name>
+        <servlet-name>ListAllCourseArrangeServlet</servlet-name>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <listener>
+        <description>ServletContextListener监听器</description>
+         <!--实现了ServletContextListener接口的监听器类 -->
+        <listener-class>listener.CountListener</listener-class>
+    </listener>
+</web-app>
